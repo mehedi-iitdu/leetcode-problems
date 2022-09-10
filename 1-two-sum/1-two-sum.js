@@ -4,13 +4,15 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    const numberOfitems = nums.length;
+    let complementMap = {}
     
-    for(i=0; i < numberOfitems; i++){
-        for(j = i + 1; j < numberOfitems; j++){
-            if(nums[i] + nums[j] == target){
-                return [i,j];
-            }
+    for(i=0; i < nums.length; i++){
+        if(nums[i] in complementMap){
+            return [complementMap[nums[i]], i]
+        }
+        else{
+            let complement = target - nums[i]
+            complementMap[complement] = i
         }
     }
 };
