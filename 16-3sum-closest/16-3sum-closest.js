@@ -15,10 +15,15 @@ var threeSumClosest = function(nums, target) {
         
         while (left < right){
             let sum = nums[i] + nums[left] + nums[right]
-                                                  
-            if (Math.abs(target - sum) < Math.abs(target - closestSum)){
+            
+            if (sum === target){
+                return sum
+            }
+            
+            else if (Math.abs(target - sum) < Math.abs(target - closestSum)){
                 closestSum = sum
             }
+            
             if(sum < target){
                 left++
             }
