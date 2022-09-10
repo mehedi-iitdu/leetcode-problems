@@ -15,18 +15,18 @@ var threeSum = function(nums) {
         
         while (left < right){
             let sum = nums[i] + nums[left] + nums[right]
-            if (sum > 0){
-                right--
-            }
-            else if(sum < 0){
-                left++
-            }
-            else{
+            if (sum == 0){
                 result.push([nums[i], nums[left], nums[right]])
                 left++
                 while(nums[left] == nums[left-1] && left < right){
                     left++
                 }
+            }
+            else if(sum < 0){
+                left++
+            }
+            else{
+                right--
             }
         }
     }
