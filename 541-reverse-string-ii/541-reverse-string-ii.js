@@ -15,8 +15,10 @@ var reverseStr = function(s, k) {
                 right--;
                 continue;
             }
+            let temp = arr[left]
+            arr[left] = arr[right]
+            arr[right] = temp
             
-            [arr[left], arr[right]] = [arr[right], arr[left]];
             left++;
             right--;
         }
