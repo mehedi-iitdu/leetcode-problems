@@ -11,15 +11,17 @@
  * @return {boolean}
  */
 var hasCycle = function(head) {
-    let arrayOfNodes = []
+    if (!head) return false
     
-    return head ? traverseLinkedList(head) : false
+    let setOfNodes = new Set()
     
-    function traverseLinkedList(head) {
-        if(arrayOfNodes.indexOf(head) >= 0){
+    while(head) {
+        if(setOfNodes.has(head)) {
             return true
         }
-        arrayOfNodes.push(head)
-        return head.next ? traverseLinkedList(head.next) : false
+        setOfNodes.add(head)
+        head = head.next
     }
+    
+    return false
 };
