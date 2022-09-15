@@ -11,15 +11,17 @@
  * @return {ListNode}
  */
 var detectCycle = function(head) {
-    let arrayOfNodes = []
+    if (!head) return head
     
-    return head ? traverseLinkedList(head) : null
+    let setOfNodes = new Set()
     
-    function traverseLinkedList(head) {
-        if(arrayOfNodes.indexOf(head) >= 0){
+    while(head) {
+        if(setOfNodes.has(head)) {
             return head
         }
-        arrayOfNodes.push(head)
-        return head.next ? traverseLinkedList(head.next) : null
+        setOfNodes.add(head)
+        head = head.next
     }
+    
+    return null
 };
