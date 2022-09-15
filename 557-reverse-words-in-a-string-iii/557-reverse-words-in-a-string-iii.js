@@ -23,5 +23,6 @@ var reverseWords = function(s) {
         }
         newStringArray.push(words.join(''))
     }
-   return newStringArray.join(" ");
+    
+    return newStringArray.join(" ");
 };
