@@ -3,13 +3,12 @@
  * @return {character}
  */
 var repeatedCharacter = function(s) {
-    const arr = [] 
-    for (let i = 0; i < s.length; i++) {
-        if (arr.indexOf(s[i]) >= 0) {
-            return s[i]
-        }
-        else {
-            arr.push(s[i])
+    let set = new Set();
+    for(let i=0; i<s.length; i++){
+        if(set.has(s[i])) {
+            return s[i];
+        } else {
+            set.add(s[i]);
         }
     }
 };
