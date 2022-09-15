@@ -14,7 +14,7 @@ var reverseWords = function(s) {
         let left = 0;
         let right = words.length - 1;
 
-        while( left < right){
+        while(left < right){
             let temp = words[left];
             words[left] = words[right];
             words[right] = temp;
