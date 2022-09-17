@@ -5,16 +5,16 @@
  * @param {number} color
  * @return {number[][]}
  */
-var floodFill = function(image, sr, sc, color, visited = {}) {
+var floodFill = function(image, sr, sc, color, visited = new Map()) {
     var fill = function(image, i, j, color, startingColor){
         if (i < 0 || i >= image.length || j < 0 || j >= image[0].length){
             return
         }
         
-        const objectKey = i + "-" +j
-        if(visited[objectKey]) return
+        const objectKey = i + "-" + j
+        if(visited.has(objectKey)) return
         
-        visited[objectKey] = true
+        visited.set(objectKey, true)
         
         if (image[i][j] != startingColor) return
         
