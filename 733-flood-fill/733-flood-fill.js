@@ -16,6 +16,8 @@ var floodFill = function(image, sr, sc, color, visited = {}) {
         
         visited[objectKey] = true
         
+        console.log({i,j})
+        
         if (image[i][j] != startingColor) return
         
         image[i][j] = color
