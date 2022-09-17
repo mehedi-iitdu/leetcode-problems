@@ -10,6 +10,7 @@ var floodFill = function(image, sr, sc, color) {
         if (i < 0 || i >= image.length || j < 0 || j >= image[0].length){
             return
         }
+        
         if (image[i][j] != startingColor) return
 
         image[i][j] = color
