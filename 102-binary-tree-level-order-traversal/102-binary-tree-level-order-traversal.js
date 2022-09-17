@@ -13,18 +13,18 @@
 var levelOrder = function(root) {
     let result = []
     
-    function traverseTree(currentNode, level) {
-        if (!currentNode) return
+    function traverseTree(root, level) {
+        if (!root) return
 
         if(result[level]){
-            result[level].push(currentNode.val)
+            result[level].push(root.val)
         }
         else{
-             result[level] = [currentNode.val]
+             result[level] = [root.val]
         }
         level++
-        traverseTree(currentNode.left, level)
-        traverseTree(currentNode.right, level)
+        traverseTree(root.left, level)
+        traverseTree(root.right, level)
     }
     
     traverseTree(root, 0)
