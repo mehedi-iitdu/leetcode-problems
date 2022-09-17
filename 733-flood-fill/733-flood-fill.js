@@ -16,16 +16,14 @@ var floodFill = function(image, sr, sc, color, visited = {}) {
         
         visited[objectKey] = true
         
-        console.log({i,j})
-        
         if (image[i][j] != startingColor) return
         
         image[i][j] = color
         
-        fill(image, i+1, j, color, startingColor)
-        fill(image, i-1, j, color, startingColor)
-        fill(image, i, j-1, color, startingColor)
-        fill(image, i, j+1, color, startingColor)
+        fill(image, i+1, j, color, startingColor, visited)
+        fill(image, i-1, j, color, startingColor, visited)
+        fill(image, i, j-1, color, startingColor, visited)
+        fill(image, i, j+1, color, startingColor, visited)
     }
     
     if(image[sr][sc] === color) return image;
