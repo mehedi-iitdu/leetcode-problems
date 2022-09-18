@@ -18,6 +18,7 @@ var preorder = function(root) {
         for(let node of root.children){
             DFS(node)
         }
+        return
     }
     DFS(root)
     return result
