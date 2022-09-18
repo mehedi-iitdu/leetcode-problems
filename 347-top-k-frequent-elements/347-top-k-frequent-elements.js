@@ -16,6 +16,7 @@ var topKFrequent = function(nums, k) {
         }
     }
     
+    // convert map of numbers to array of nums based on frequency 
     numMap = Object.keys(numMap).sort((a,b) => numMap[b] - numMap[a])
     
     for(let i = 0; i < k; i++){
