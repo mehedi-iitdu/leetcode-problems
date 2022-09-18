@@ -16,10 +16,10 @@ var topKFrequent = function(nums, k) {
         }
     }
     
-    let frequentNums = Object.keys(numMap).sort((a,b) => numMap[b] - numMap[a])
+    numMap = Object.keys(numMap).sort((a,b) => numMap[b] - numMap[a])
     
     for(let i = 0; i < k; i++){
-        result.push(parseInt(frequentNums[i]))
+        result.push(parseInt(numMap[i]))
     }
     
     return result
