@@ -32,8 +32,8 @@ var trap = function(height) {
         }
     }
     
+    // calculate total water area
     let result = 0
-    
     for(let i = 1; i < height.length - 1; i++){
         let trappedArea = Math.min(maxLeft[i], maxRight[i])
         if(height[i] < trappedArea){
