@@ -3,41 +3,30 @@
  * @return {number}
  */
 var trap = function(height) {
-    // calculate leftMax
-    let maxLeft = [0]
     let leftMax = height[0]
-    
-    for(let i = 1; i < height.length; i++){
-        if(height[i-1] > leftMax){
-            maxLeft[i] = height[i-1]
-            leftMax    = height[i-1]
-        }
-        else{
-            maxLeft[i] = leftMax
-        }
-    }
-    
-    // calculate rightMax
-    let maxRight = []
-    maxRight[height.length - 1] = 0
     let rightMax = height[height.length - 1]
+    let result = 0
+    let left = 1
+    let right = height.length - 2
     
-    for(let i = height.length - 2; i >= 0; i--){
-        if(height[i+1] > rightMax){
-            maxRight[i] = height[i+1]
-            rightMax    = height[i+1]
+    while(left <= right){
+        if(leftMax < rightMax){
+            if(height[left] > leftMax){
+                leftMax = height[left]
+            }
+            else{
+                result = result + (leftMax - height[left])
+            }
+            left++
         }
         else{
-            maxRight[i] = rightMax
-        }
-    }
-    
-    // calculate total water area
-    let result = 0
-    for(let i = 1; i < height.length - 1; i++){
-        let trappedArea = Math.min(maxLeft[i], maxRight[i])
-        if(height[i] < trappedArea){
-            result = result + (trappedArea - height[i])
+            if(height[right] > rightMax){
+                rightMax = height[right]
+            }
+            else{
+                result = result + (rightMax - height[right])
+            }
+            right--
         }
     }
     
