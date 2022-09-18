@@ -11,9 +11,9 @@
  * @return {number[]}
  */
 var preorder = function(root) {
+    if (!root) return []
     let result = []
     function DFS(root){
-        if (!root) return
         result.push(root.val)
         for(let node of root.children){
             DFS(node)
