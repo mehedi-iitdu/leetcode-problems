@@ -5,10 +5,13 @@
  */
 var intersection = function(nums1, nums2) {
     let result = []
-    for(let i = 0; i < nums1.length; i++){
-        if(nums2.indexOf(nums1[i]) >= 0) {
-            if(result.indexOf(nums1[i]) < 0){
-                result.push(nums1[i])
+    let minLengthArr = nums1.length < nums2.length ? nums1 : nums2
+    let maxLengthArr = nums1.length >= nums2.length ? nums1 : nums2
+        
+    for(let i = 0; i < minLengthArr.length; i++){
+        if(maxLengthArr.indexOf(minLengthArr[i]) >= 0) {
+            if(result.indexOf(minLengthArr[i]) < 0){
+                result.push(minLengthArr[i])
             }
         }
     }
