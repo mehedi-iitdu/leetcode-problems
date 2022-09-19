@@ -4,8 +4,8 @@
  * @return {number[][]}
  */
 var findDifference = function(nums1, nums2) {
-    let set1 = new Set(nums1.filter(num => !nums2.includes(num)))
-    let set2 = new Set(nums2.filter(num => !nums1.includes(num)));
-    
-    return [[...set1], [...set2]]
+    const diff = (set, target) => [...set].filter(s => !target.has(s))
+
+    const [n1, n2] = [new Set(nums1), new Set(nums2)]
+    return [diff(n1, n2), diff(n2, n1)]
 };
