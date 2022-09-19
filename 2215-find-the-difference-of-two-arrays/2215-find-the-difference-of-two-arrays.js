@@ -4,20 +4,8 @@
  * @return {number[][]}
  */
 var findDifference = function(nums1, nums2) {
-    let distinct1 = []
-    let distinct2 = []
+    let set1 = new Set(nums1.filter(num => !nums2.includes(num)))
+    let set2 = new Set(nums2.filter(num => !nums1.includes(num)));
     
-    for(let i = 0; i < nums1.length; i++){
-        if(nums2.indexOf(nums1[i]) < 0 && distinct1.indexOf(nums1[i]) < 0){
-            distinct1.push(nums1[i])
-        }
-    }
-    
-    for(let i = 0; i < nums2.length; i++){
-        if(nums1.indexOf(nums2[i]) < 0 && distinct2.indexOf(nums2[i]) < 0){
-            distinct2.push(nums2[i])
-        }
-    }
-    
-    return [distinct1, distinct2]
+    return [[...set1], [...set2]]
 };
