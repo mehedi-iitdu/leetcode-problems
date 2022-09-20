@@ -24,7 +24,7 @@ var updateMatrix = function(mat) {
     }
     
     for(let i = rows - 1; i >= 0; i--){
-        for(let j = cols-1; j >= 0; j--){
+        for(let j = cols - 1; j >= 0; j--){
             if(dp[i][j] == 0){
                 continue
             }
