@@ -20,6 +20,7 @@ var minDepth = function(root) {
         let levelSize = queue.length
         minimumDepth++
         
+        // finish traversing all nodes of current level
         for (let i = 0; i < levelSize; i++) {
             // shift from queue
             const currentNode = queue.shift()
@@ -27,7 +28,7 @@ var minDepth = function(root) {
             if (!currentNode.left && !currentNode.right) return minimumDepth
             if (currentNode.left) queue.push(currentNode.left)
             if (currentNode.right) queue.push(currentNode.right)
-        } 
+        }
     }
     
     return minimumDepth
