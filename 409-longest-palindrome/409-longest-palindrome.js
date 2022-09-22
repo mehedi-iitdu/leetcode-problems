@@ -3,7 +3,7 @@
  * @return {number}
  */
 var longestPalindrome = function(s) {
-    let chars = new Map()
+    let chars = {}
     
     for(let i = 0; i < s.length; i++){
         s[i] in chars ? chars[s[i]]++ : chars[s[i]] = 1
