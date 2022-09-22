@@ -22,7 +22,6 @@ var minDepth = function(root) {
         
         // finish traversing all nodes of current level
         for (let i = 0; i < levelSize; i++) {
-            // shift from queue
             const currentNode = queue.shift()
             
             if (!currentNode.left && !currentNode.right) return minimumDepth
