@@ -1,8 +1,3 @@
-/**
- * @param {number} m
- * @param {number} n
- * @return {number}
- */
 var uniquePaths = function(m, n, memo = {}) {
     // recursion
 //     const key = `${m},${n}`;
@@ -18,12 +13,9 @@ var uniquePaths = function(m, n, memo = {}) {
         dp[i] = []
     }
     
-    for(let i=0; i <= m; i++){
-        for(let j=0; j <= n; j++){
+    for(let i=0; i < m; i++){
+        for(let j=0; j < n; j++){
             if(i== 0 || j == 0){
-                dp[i][j] = 0
-            }
-            else if(i==1 && j==1){
                 dp[i][j] = 1
             }
             else{
@@ -32,5 +24,5 @@ var uniquePaths = function(m, n, memo = {}) {
         }
     }
     
-    return dp[m][n]
+    return dp[m-1][n-1]
 };
