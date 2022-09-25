@@ -3,15 +3,10 @@
  * @return {number}
  */
 var singleNumber = function(nums) {
-    let result = []
+    let result = 0
     for(let i = 0; i < nums.length; i++){
-        if(result.indexOf(nums[i]) >= 0){
-            result.splice(result.indexOf(nums[i]), 1)
-        }
-        else{
-            result.push(nums[i])
-        }
+        result = nums[i] ^ result
     }
     
-    return result[0]
+    return result
 };
