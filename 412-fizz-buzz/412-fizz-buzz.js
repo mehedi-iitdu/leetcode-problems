@@ -16,7 +16,7 @@ var fizzBuzz = function(n) {
             result.push("Buzz")
         }
         else {
-            result.push(i+"")
+            result.push(i.toString())
         }
     }
     
