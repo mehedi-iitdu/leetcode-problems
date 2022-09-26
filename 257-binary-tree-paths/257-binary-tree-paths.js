@@ -16,12 +16,7 @@ var binaryTreePaths = function(root) {
     const DFSTraverse = (root, path) => {
         path.push(root.val)
         if(!root.left && !root.right){
-            let str = ""
-            for(let i = 0; i < path.length - 1; i++){
-                str = str + path[i] + "->"
-            }
-            str = str + path[path.length - 1]
-            result.push(str)
+            result.push(path.join("->"))
         }
         
         if(root.left) DFSTraverse(root.left, path)
