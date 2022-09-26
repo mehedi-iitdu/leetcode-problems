@@ -24,7 +24,5 @@ var removeKdigits = function(num, k) {
         stack.shift()
     }
     
-    console.log(stack)
-    
     return stack.length > 0 ? stack.join('') : "0"
 };
