@@ -14,7 +14,7 @@ var getMinimumDifference = function(root) {
     
     let globalMin = Number.MAX_SAFE_INTEGER
     
-    const DFS = (root, previousNodeVal, path) => {
+    const DFS = (root, path) => {
         if (!root) return 
         
         //calculate abs difference with previous nodes
@@ -25,13 +25,13 @@ var getMinimumDifference = function(root) {
         //push current node into path
         path.push(root.val)
         
-        DFS(root.left, root.val, path)
-        DFS(root.right, root.val, path)
+        DFS(root.left, path)
+        DFS(root.right, path)
         
         path.pop()
     }
     
-    DFS(root, globalMin, path=[])
+    DFS(root, path=[])
     
     return globalMin
 };
