@@ -27,6 +27,8 @@ var getMinimumDifference = function(root) {
         
         DFS(root.left, root.val, path)
         DFS(root.right, root.val, path)
+        
+        path.pop()
     }
     
     DFS(root, globalMin, path=[])
