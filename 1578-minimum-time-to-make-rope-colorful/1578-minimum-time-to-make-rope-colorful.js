@@ -8,12 +8,12 @@ var minCost = function(colors, neededTime) {
     
     for(let i = 0; i < colors.length;) {
         let currentColor = colors[i]
-        let costOfRemoval = neededTime[i]
+        let highestCostOfRemoval = neededTime[i]
         let nextIndex = i + 1
         
         while(colors[nextIndex] === currentColor) {
-            minimumTime += Math.min(neededTime[nextIndex], costOfRemoval)
-            costOfRemoval = Math.max(neededTime[nextIndex], costOfRemoval)
+            minimumTime += Math.min(neededTime[nextIndex], highestCostOfRemoval)
+            highestCostOfRemoval = Math.max(neededTime[nextIndex], highestCostOfRemoval)
             nextIndex++
         }
         
