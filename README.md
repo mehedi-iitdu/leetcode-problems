@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Union Find
 |  |
 | ------- |
@@ -34,4 +35,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0175-combine-two-tables](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0175-combine-two-tables) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0181-employees-earning-more-than-their-managers) |
+## Greedy
+|  |
+| ------- |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 <!---LeetCode Topics End-->
