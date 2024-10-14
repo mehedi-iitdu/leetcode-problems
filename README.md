@@ -43,4 +43,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
+## Binary Search
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
+## Tree
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
+## Binary Tree
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
 <!---LeetCode Topics End-->
