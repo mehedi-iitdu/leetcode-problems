@@ -3,20 +3,21 @@
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-    nums.sort((a,b) => a-b)
+    if (!nums.length) return 0
 
-    let globalMax = 1
-    let localMax = 1
+    nums.sort((a,b) => a-b)
+    let count = 1
+    let largestSequence = 1
 
     for(let i = 1; i < nums.length; i++){
         if(nums[i] == nums[i-1] + 1){
-            localMax++
+            count++
+            largestSequence = Math.max(count, largestSequence)
         }
-        else if(nums[i] != nums[i-1]){
-            localMax = 1
+        else if (nums[i] != nums[i-1]) {
+            count = 1
         }
-        globalMax = Math.max(globalMax, localMax)
     }
 
-    return nums.length == 0 ? 0 : globalMax
+    return largestSequence
 };
