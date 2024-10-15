@@ -14,8 +14,6 @@ var canArrange = function(arr, k) {
         frequency[reminder]++
     }
 
-    console.log(frequency)
-
     if(frequency[0] % 2 !== 0){
         return false
     }
