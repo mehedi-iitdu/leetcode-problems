@@ -14,8 +14,6 @@ var minAddToMakeValid = function(s) {
             element ? stack.push(element) : null
             stack.push(s[i])
         }
-
-        console.log(stack)
     }
 
     return stack.length
