@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0383-ransom-note](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0383-ransom-note) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## String
 |  |
 | ------- |
@@ -17,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0383-ransom-note) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -25,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Union Find
 |  |
