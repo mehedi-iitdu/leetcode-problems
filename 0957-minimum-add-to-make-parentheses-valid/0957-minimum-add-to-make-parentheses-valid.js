@@ -3,18 +3,13 @@
  * @return {number}
  */
 var minAddToMakeValid = function(s) {
-    let stack = [s[0]]
-
-    for(let i = 1; i < s.length; i++){
-        let element = stack.pop()
-        if(element  == '(' && s[i] == ')'){
-            continue
-        }
-        else{
-            element ? stack.push(element) : null
-            stack.push(s[i])
+    let stack = []
+    for (let parenthesis of s) {
+         if (stack[stack.length - 1] === "(" && parenthesis === ")") {
+            stack.pop()
+        } else {
+            stack.push(parenthesis)
         }
     }
-
     return stack.length
 };
