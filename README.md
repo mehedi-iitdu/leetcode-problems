@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
 | [0383-ransom-note](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0383-ransom-note) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
 | [3195-separate-black-and-white-balls](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/3195-separate-black-and-white-balls) |
 ## Counting
 |  |
@@ -47,11 +48,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/3195-separate-black-and-white-balls) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Binary Search
 |  |
