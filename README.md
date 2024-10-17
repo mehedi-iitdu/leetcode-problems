@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0670-maximum-swap](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -112,4 +113,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Math
+|  |
+| ------- |
+| [0670-maximum-swap](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0670-maximum-swap) |
 <!---LeetCode Topics End-->
