@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0151-reverse-words-in-a-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0151-reverse-words-in-a-string) |
+| [0179-largest-number](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0179-largest-number) |
 | [0383-ransom-note](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0383-ransom-note) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0137-single-number-ii) |
 | [0162-find-peak-element](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0162-find-peak-element) |
+| [0179-largest-number](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0179-largest-number) |
 | [0213-house-robber-ii](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -60,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0179-largest-number) |
 | [0670-maximum-swap](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
@@ -108,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0215-kth-largest-element-in-an-array) |
 ## Quickselect
 |  |
