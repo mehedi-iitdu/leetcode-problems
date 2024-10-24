@@ -88,11 +88,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
+| [0988-flip-equivalent-binary-trees](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0222-count-complete-tree-nodes) |
+| [0988-flip-equivalent-binary-trees](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Stack
 |  |
@@ -128,4 +130,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0988-flip-equivalent-binary-trees](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0988-flip-equivalent-binary-trees) |
 <!---LeetCode Topics End-->
