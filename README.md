@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/1304-longest-happy-string) |
 | [3195-separate-black-and-white-balls](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/3195-separate-black-and-white-balls) |
+| [3451-string-compression-iii](https://github.com/mehedi-iitdu/leetcode-problems/tree/master/3451-string-compression-iii) |
 ## Counting
 |  |
 | ------- |
