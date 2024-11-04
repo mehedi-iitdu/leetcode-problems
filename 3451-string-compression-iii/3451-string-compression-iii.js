@@ -4,13 +4,13 @@
  */
 var compressedString = function(word) {
     let result = ""
-    let prev = word[0]
+    let currentCharacter = word[0]
     let count  = 1
 
     for(let i = 1; i < word.length; i++){
-        if(prev === word[i]){
+        if(word[i] === currentCharacter ){
             if(count === 9){
-                result = result + count + prev
+                result = result + count + currentCharacter
                 count = 1
             }
             else{
@@ -18,11 +18,11 @@ var compressedString = function(word) {
             }
         }
         else{
-            result = result + count + prev
-            prev = word[i]
+            result = result + count + currentCharacter
+            currentCharacter = word[i]
             count = 1
         }
     }
 
-    return result + count + prev
+    return result + count + currentCharacter
 };
